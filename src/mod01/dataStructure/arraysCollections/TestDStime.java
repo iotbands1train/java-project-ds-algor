@@ -74,14 +74,14 @@ public class TestDStime {
 		}
 		
 		public static Collection<Person> createPersonC() {
-			File idFile = new File("personIDs");
-			File fnameFile = new File("personFnames");
-			File lnameFile = new File("personLnames");
-			File streetFile = new File("personStreet");
-			File citFile = new File("personCity");
-			File staFile = new File("personState");
-			File zipFile = new File("personZip");
-			File typeFile = new File("personType");
+			File idFile = new File("datafiles/personIDs");
+			File fnameFile = new File("datafiles/personFnames");
+			File lnameFile = new File("datafiles/personLnames");
+			File streetFile = new File("datafiles/personStreet");
+			File citFile = new File("datafiles/personCity");
+			File staFile = new File("datafiles/personState");
+			File zipFile = new File("datafiles/personZip");
+			File typeFile = new File("datafiles/personType");
 			
 			Collection<Person> peoples = new ArrayList<>();
 			
@@ -131,14 +131,14 @@ public class TestDStime {
 		}
 		
 		public static Person[] createPerson() {
-			File idFile = new File("personIDs");
-			File fnameFile = new File("personFnames");
-			File lnameFile = new File("personLnames");
-			File streetFile = new File("personStreet");
-			File citFile = new File("personCity");
-			File staFile = new File("personState");
-			File zipFile = new File("personZip");
-			File typeFile = new File("personType");
+			File idFile = new File("datafiles/personIDs");
+			File fnameFile = new File("datafiles/personFnames");
+			File lnameFile = new File("datafiles/personLnames");
+			File streetFile = new File("datafiles/personStreet");
+			File citFile = new File("datafiles/personCity");
+			File staFile = new File("datafiles/personState");
+			File zipFile = new File("datafiles/personZip");
+			File typeFile = new File("datafiles/personType");
 			int ct = 0;
 			
 			Scanner o1 = null, o2 = null, o3 = null, o4 = null, o5 = null, o6 = null, o7 = null, o8 = null;

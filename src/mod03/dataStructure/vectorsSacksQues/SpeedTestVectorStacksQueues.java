@@ -63,7 +63,7 @@ public class SpeedTestVectorStacksQueues {
 		Person p =null;
 		int len = 0;
 		Scanner r = null; 
-		File file = new File("persons");
+		File file = new File("datafiles/persons");
 		try {
 			int i = 0, j = 0;
 			r = new Scanner(file);
@@ -143,7 +143,7 @@ public class SpeedTestVectorStacksQueues {
 		Person p =null;
 		int len = 0;
 		Scanner r = null; 
-		File file = new File("persons");
+		File file = new File("datafiles/persons");
 		try {
 			int i = 0, j = 0;
 			r = new Scanner(file);
@@ -181,7 +181,7 @@ public class SpeedTestVectorStacksQueues {
 		Person p =null;
 		int len = 0;
 		Scanner r = null; 
-		File file = new File("persons");
+		File file = new File("datafiles/persons");
 		try {
 			int i = 0, j = 0;
 			r = new Scanner(file);
@@ -218,7 +218,7 @@ public class SpeedTestVectorStacksQueues {
 		Person p =null;
 		int len = 0;
 		Scanner r = null; 
-		File file = new File("persons");
+		File file = new File("datafiles/persons");
 		try {
 			int i = 0, j = 0;
 			r = new Scanner(file);

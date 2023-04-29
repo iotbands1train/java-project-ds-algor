@@ -45,7 +45,7 @@ public class TestPersonMyArrayList {
 			int len = 0;
 			Scanner r = null;
 			PersonList<Person> db = new PersonArrayList<>();
-			File file = new File("database");
+			File file = new File("datafiles/database");
 			try {
 				int i = 0, j = 0;
 				r = new Scanner(file);

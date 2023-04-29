@@ -405,7 +405,7 @@ public class SetsMapsMainTest {
 		int len = 0;
 		Scanner r = null;
 		List<Person> db = new ArrayList<>();
-		File file = new File("database");
+		File file = new File("datafiles/database");
 		try {
 			int i = 0, j = 0;
 			r = new Scanner(file);
@@ -442,7 +442,7 @@ public class SetsMapsMainTest {
 		int len = 0;
 		Scanner r = null;
 		List<Accounts> db = new ArrayList<>();
-		File file = new File("accounts");
+		File file = new File("datafiles/accounts");
 		try {
 			int i = 0, j = 0;
 			r = new Scanner(file);

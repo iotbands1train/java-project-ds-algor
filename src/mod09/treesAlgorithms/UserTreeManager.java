@@ -410,8 +410,8 @@ public class UserTreeManager {
 
 		long uiid = 0;
 		try {
-			Scanner r1 = new Scanner(new File("persons"));
-			Scanner r2 = new Scanner(new File("accounts"));
+			Scanner r1 = new Scanner(new File("datafiles/persons"));
+			Scanner r2 = new Scanner(new File("datafiles/accounts"));
 			while (r1.hasNextLine() && r2.hasNextLine()) {
 				String s = (String) r1.nextLine();
 				Long id = Long.parseLong(s.substring(s.indexOf("id=") + "id=".length(), s.indexOf(", fname=")));
