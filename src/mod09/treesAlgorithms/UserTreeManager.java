@@ -395,7 +395,7 @@ public class UserTreeManager {
 	 * @purpose loads data at start , gets data from method reading files
 	 * @return
 	 */
-	private static List<Users> loadDataLinkedList() {
+	public static List<Users> loadDataLinkedList() {
 		List<Users> list = new LinkedList<>(accountPersonListFromFile());
 		return list;
 	}
