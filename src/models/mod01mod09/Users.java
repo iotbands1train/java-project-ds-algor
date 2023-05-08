@@ -17,6 +17,10 @@ public class Users implements Comparable<Users>{
 		this.date = date;
 	}
 
+	public Users() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Long getUserNumber() {
 		return userNumber;
 	}

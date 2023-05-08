@@ -3,8 +3,8 @@ package mod07.searchingMatchingAlgorithms;
 public class LinearSearch {
  
 	public static void main() {
-		int[] list = { 4, 5, 1, 2, 9, -3 };
-		System.out.println(linearSearch(list, 2));
+		int[] list = { 4, 5, 1, 2, 9, -3 }; //Collection
+		System.out.println(linearSearch(list, 2)); //Sort & Print
 	}
 
 	/** The method for finding a key in the list */
