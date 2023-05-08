@@ -154,7 +154,6 @@ public class Cosc2436StudentProject {
 
 	public static List<Users> searchByFirstName(List<Users> list, String firstName) {
 		List<Users> results = new LinkedList<>();
-
 		for (Users user : list) {
 			if (user.getPerson().getFname().trim().equalsIgnoreCase(firstName.trim())) {
 				results.add(user);
